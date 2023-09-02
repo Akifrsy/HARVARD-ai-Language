@@ -1,0 +1,95 @@
+Natural Language Processing:
+    -Automatic Summarization
+    -Information Extraction
+    -Language Identification
+    -Machine Translation
+    -Named Entity Recognition
+    -Speech Recognition
+    -Text Classification
+    -Word Sense Disambiguation
+
+Syntax
+    -Just before nine o'clock Sherlock Holmes stepped briskly into the room.
+    -I saw the man on the mountain with a telescope.
+
+Semantics: 
+    -Sherlock Holmes stepped briskly into the room just before nine o'clock.
+    -A few minutes before nine, Sherlock Holmes walked quickly into the room.
+    -Colorless green ideas sleep furiously.
+
+Formal Grammar: A system of rules for generating sentences in a language.
+
+N -> she
+V -> saw
+D -> the
+N -> city
+
+N -> she    | city | car    | Harry | ...
+D -> the    | a    | an     |     / | ...
+V -> saw    | ate  | walked |    /  | ...
+P -> to     | on   | over   |   /   | ...
+ADJ -> blue | busy | old    |  /    | ...
+
+n-gram: A contiguous sequence of n items from a sample of text.
+
+Character n-gram: A contiguous sequence of n characters from a sample of text.
+
+Word n-gram: A contiguous sequence of n words from a sample of text.
+
+Unigram: A contiguous sequence of 1 item from a sample of text.
+
+Biagram: A contiguous sequence of 2 items from a sample of text.
+
+Trigrams: A contiguous sequence of 3 items from a sample of text.
+
+"How often have i said to you that when you have eliminated the impossible whatever remains, however improbable, must be the truth?"
+
+Tokenization: The task of splitting a sequence of characters into pieces (tokens)
+
+Word Tokenization: The task of splitting a sequence of characters into words.
+
+"Whatever remains, however improbable, must be the truth."
+
+["Whatever", "remains", "however", "improbable", "must", "be", "the", "truth."]
+
+"Just before nine o'clock Sherlock Holmes stepped briskly into the room."
+
+"He was dressed in a sombre yet rich style, in black frock-coat, shinging hat, neat brown gaiters, and well-cut pearl-grey trousers."
+
+"I cannot waste time over this sort of fantastic talk, Sherlock. If you can catch the man, catch him, and let me know when you have done it."
+
+"I cannot waste time over this sort of fantastic talk, Mr. Holmes," he said. "If you can catch the man, catch him, and let me know when you have done it."
+
+"My grandson loved it! So much fun!"
+
+"Product broke after a few days."
+
+"One of the best games I've played in a long time."
+
+"Kind of cheap ans flimsy, not worth it."
+
+Bag-Of-Words Model: Model that represents text as an undordered collection of words.
+
+Laplace Smoothing: Adding 1 to each value in our distribution: pretending we've seen each value one more time than we actually have.
+
+Information Retrieval: The task of finding relevant documents in response to a user query.
+
+Topic Modeling: Models for discovering the topics for a set of documents.
+
+Term Frequency: Number of times a term appears in a document.
+
+Function Words: Words that have little meaning on their own, but are used to grammatically connect other words.
+
+Function Words: Am, by, do, is, which, with, yet...
+
+Content Words: Words that carry meaning independently. / algorithm, category, computer...
+
+Inverse Document Frequency: Measure of how common or rare a word is across documents.
+
+tf-idf: Ranking of what words are important in a document by multiplying term frequency (TF) by inverse document frequency (IDF) 
+
+Information Extraction: The task of extracting knowledge from documents.
+
+Word2vec: Model for generating word vectors.
+
+Skip-Gram Architecture: Neural network architecture for predicting context words given a target word.
